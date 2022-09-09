@@ -1,0 +1,30 @@
+@use 'contenedorCalculadora';
+@use 'Boton';
+@use 'pantalla';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #1b1b32;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.fila{
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
